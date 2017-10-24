@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>    
+    <script src="scripts/loginApp.js"></script>
+
+
+</head>
+<body ng-app="loginApp" ng-controller="loginCtrl">
+    <div class="container">
+        <div class="bgdiv" >
+            <!-- <div class="sidebar">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()"></a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+            </div> -->
+            <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+            <div ng-include="'baseFiles/navigationBar.html'"></div>
+            <div class="info">
+                Stay Healthy is a well known hospital that provides treatment for different diseases since 2010. It has four different branches in India. The hospital organizes free health checkup camps every month and is well-known for regular meeting of patients with health experts. Expert doctors of the hospital provide information and possible solutions for patients' illness along with regular diet plans. However, due to venue, dates and other arrangement issues, these camps include limited number of people.
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
